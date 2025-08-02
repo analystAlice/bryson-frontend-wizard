@@ -1,11 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
-import littlehorseImage from "@/assets/littlehorse-project.jpg";
-import evervaultImage from "@/assets/evervault-project.jpg";
-import trivagoImage from "@/assets/trivago-project.jpg";
-import neverblandImage from "@/assets/neverbland-project.jpg";
 
 const Projects = () => {
   const projects = [
@@ -15,7 +10,8 @@ const Projects = () => {
       description: "A distributed OS for enterprise systems - a platform for microservices, workflows, integrations, and AI agents built on open-source technology.",
       tech: ["React", "TypeScript", "Node.js", "Microservices", "Workflow Orchestration"],
       type: "Enterprise Platform",
-      image: littlehorseImage
+      // Using a tech/workflow themed image as placeholder
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
     },
     {
       name: "Evervault",
@@ -23,7 +19,8 @@ const Projects = () => {
       description: "First-class payments stack with PCI compliance, payment optimization, card issuing, and secure data handling for global fintech leaders.",
       tech: ["React", "Next.js", "TypeScript", "Payment APIs", "Security"],
       type: "Fintech Platform",
-      image: evervaultImage
+      // Using a security/tech themed image as placeholder
+      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
     },
     {
       name: "Trivago",
@@ -31,7 +28,8 @@ const Projects = () => {
       description: "Hotel comparison platform that searches millions of hotels and compares prices from 100+ booking sites to help users find the best deals.",
       tech: ["React", "TypeScript", "Search APIs", "Data Visualization", "Performance Optimization"],
       type: "Travel Platform",
-      image: trivagoImage
+      // Using a travel themed image as placeholder
+      image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
     },
     {
       name: "Neverbland",
@@ -39,7 +37,8 @@ const Projects = () => {
       description: "Digital agency website building brands, digital products and experiences with focus on UX/UI design, web development, and digital marketing.",
       tech: ["React", "Next.js", "Tailwind CSS", "Animation", "Portfolio Design"],
       type: "Agency Website",
-      image: neverblandImage
+      // Using a design/creative themed image as placeholder
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
     }
   ];
 
