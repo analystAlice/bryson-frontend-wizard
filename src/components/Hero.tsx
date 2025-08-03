@@ -50,21 +50,6 @@ const Hero = () => {
             </a>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              className="bg-white text-primary hover:bg-white/90 shadow-large"
-            >
-              Download Resume
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-white/30 text-white hover:bg-white/10"
-            >
-              View Portfolio
-            </Button>
-          </div>
         </div>
       </div>
       
