@@ -5,11 +5,11 @@ import { ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      name: "LittleHorse",
-      url: "https://littlehorse.io/",
-      description: "A distributed OS for enterprise systems - a platform for microservices, workflows, integrations, and AI agents built on open-source technology.",
-      tech: ["React", "TypeScript", "Node.js", "Microservices", "Workflow Orchestration"],
-      type: "Enterprise Platform",
+      name: "AI Mastermind",
+      url: "https://ai.mastermind-marketing.com/",
+      description: "An advanced AI automation platform designed to help businesses build, deploy, and manage intelligent agents and workflows effortlessly.",
+      tech: ["React", "TypeScript", "Node.js", "FastAPI", "AI Automation"],
+      type: "AI Automation Platform",
       // Using a tech/workflow themed image as placeholder
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
     },
