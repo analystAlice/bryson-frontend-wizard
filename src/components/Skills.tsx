@@ -6,9 +6,9 @@ const skillCategories = [
     title: "Core Frontend",
     skills: [
       { name: "JavaScript (ES6+)", years: "5 yrs" },
-      { name: "TypeScript", years: "3 yrs" },
-      { name: "React.js", years: "4 yrs" },
-      { name: "Next.js", years: "3 yrs" }
+      { name: "TypeScript", years: "5 yrs" },
+      { name: "React.js", years: "5 yrs" },
+      { name: "Next.js", years: "5 yrs" }
     ],
     gradient: "bg-gradient-to-br from-blue-500 to-purple-600"
   },
