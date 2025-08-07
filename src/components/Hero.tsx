@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-6 mb-12 text-sm md:text-base">
             <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
               <Mail className="w-4 h-4" />
-              <span>bryson.developer@gmail.com</span>
+              <span>bryson.develop2004@gmail.com</span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
               <Phone className="w-4 h-4" />
