@@ -35,7 +35,7 @@ const experiences = [
     title: "Frontend Developer",
     company: "Independent Projects / Early Career",
     location: "Las Vegas, NV, United States",
-    period: "04/2017 – 12/2021",
+    period: "09/2020 – 12/2021",
     current: false,
     achievements: [
       "Built small web apps with HTML, CSS, and vanilla JavaScript, gaining experience in responsive UI design.",
